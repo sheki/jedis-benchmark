@@ -6,6 +6,8 @@ Download (or clone) the code and run `mvn install`.
 It should build a jar called jedis-benchmark-1.0-jar-with-dependencies.jar.
 ##Usage
 The program assumes defaults for all the values, which can be changed by using the given options.
+
+
 -  -n : number of operations. Default is 100000.
 -  -t : number of threads (concurrent clients).  Default is 1.
 -  -c : number of Jedis connections. Default is 1.
